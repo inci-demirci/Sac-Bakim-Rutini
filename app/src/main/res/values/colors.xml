@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FADADD</color>
+    <color name="textPrimary">#090808</color>
+    <color name="accent">#933898</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="buttonTint">#FADADD</color>
+    <color name="textPrimary2">#000000</color>
+    <color name="favoriCardBackground">#FFFFFF</color>
+    <color name="favoriTextPrimary">#000000</color>
+    <color name="buttonBackground">#FADADD</color>
+    <color name="buttonText">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="günTextPrimary">#000000</color>
+    <color name="sacBackgroundColor">#FADADD</color>
+    <color name="primaryTextColor">#933898</color>
+    <color name="tabIndicatorColor">#933898</color>
+    <color name="tabSelectedTextColor">#933898</color>
+    <color name="tabUnselectedTextColor">#6E6E6E</color>
+    <color name="profilBackgroundColor">#FFFFFF</color>
+    <color name="profilPrimaryTextColor">#933898</color>
+    <color name="secondaryTextColor">#333333</color>
+
+
+
+</resources>

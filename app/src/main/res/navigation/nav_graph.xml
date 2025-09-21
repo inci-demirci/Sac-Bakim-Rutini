@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rutinFragment">
+
+    <fragment
+        android:id="@+id/rutinFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.RutinFragment"
+        android:label="fragment_rutin"
+        tools:layout="@layout/fragment_rutin" >
+        <action
+            android:id="@+id/action_rutinFragment_to_favorilerFragment"
+            app:destination="@id/favorilerFragment" />
+        <action
+            android:id="@+id/action_rutinFragment_to_kuruSacFragment"
+            app:destination="@id/kuruSacFragment" />
+        <action
+            android:id="@+id/action_rutinFragment_to_yagliSacFragment"
+            app:destination="@id/yagliSacFragment" />
+        <action
+            android:id="@+id/action_rutinFragment_to_yagliSacFragment2"
+            app:destination="@id/yagliSacFragment" />
+        <action
+            android:id="@+id/action_rutinFragment_to_normalSacFragment"
+            app:destination="@id/normalSacFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favorilerFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.FavorilerFragment"
+        android:label="fragment_favoriler"
+        tools:layout="@layout/fragment_favoriler" >
+        <action
+            android:id="@+id/action_favorilerFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/kuruSacFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.KuruSacFragment"
+        android:label="fragment_kuru_sac"
+        tools:layout="@layout/fragment_kuru_sac" />
+    <fragment
+        android:id="@+id/yagliSacFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.YagliSacFragment"
+        android:label="fragment_yagli_sac"
+        tools:layout="@layout/fragment_yagli_sac" />
+    <fragment
+        android:id="@+id/normalSacFragment"
+        android:name="com.example.sabakmrutinim.fragmentler.NormalSacFragment"
+        android:label="fragment_normal_sac"
+        tools:layout="@layout/fragment_normal_sac" />
+</navigation>

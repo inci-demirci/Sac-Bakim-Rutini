@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="accent">#BB86FC</color>
+    <color name="cardBackground">#121212</color>
+    <color name="buttonTint">#BB86FC</color>
+    <color name="textPrimary2">#FFFFFF</color>
+    <color name="favoriCardBackground">#1E1E1E</color>
+    <color name="favoriTextPrimary">#FFFFFF</color>
+    <color name="buttonBackground">#BB86FC</color> <!-- mor ton ya da senin istediğin -->
+    <color name="buttonText">#FFFFFF</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="günTextPrimary">#FFFFFF</color>
+    <color name="sacBackgroundColor">#121212</color>
+    <color name="primaryTextColor">#E1BEE7</color> <!-- Açık mor -->
+    <color name="tabIndicatorColor">#BB86FC</color> <!-- Material mor -->
+    <color name="tabSelectedTextColor">#E1BEE7</color>
+    <color name="tabUnselectedTextColor">#B0B0B0</color>
+    <color name="profilBackgroundColor">#121212</color>
+    <color name="profilPrimaryTextColor">#933898</color> <!-- Açık mor -->
+    <color name="secondaryTextColor">#333333</color>
+
+</resources>
